@@ -7,7 +7,7 @@
 > Lecture slides: `comp-bio_lecture-07_slides.pptx`
 
 > [!NOTE]
-> Script: `scripts/data_visualization_ggplot2.R`
+> Lecture script: `scripts/data_visualization_ggplot2.R`
 
 ---
 

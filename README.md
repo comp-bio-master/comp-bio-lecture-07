@@ -1,5 +1,7 @@
 # Repository to Accompany Week07 Lecture: R Data Visualization w/ Tidyverse R Package
 
+The purpose of this repo is to allow you to easily clone the lecture slides and script for today's lecture.  
+
 > [!IMPORTANT] 
 > clone this repo to your computer 
 

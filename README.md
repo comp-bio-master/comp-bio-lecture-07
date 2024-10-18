@@ -1,4 +1,4 @@
-# Repo For Week07 R Data Visualization w/ Tidyverse R Package
+# Repository to Accompany Week07 Lecture: R Data Visualization w/ Tidyverse R Package
 
 > [!IMPORTANT] 
 > clone this repo to your computer 

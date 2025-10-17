@@ -1,0 +1,28 @@
+{
+  "name": "RStudio + r2u (binaries) + tidyverse + janitor",
+  "image": "mcr.microsoft.com/devcontainers/base:noble",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+      "vscodeRSupport": "full",
+      "installDevTools": true,
+      "installRMarkdown": true,
+      "installRadian": true,
+      "installVscDebugger": true,
+      "installBspm": true
+    },
+    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {}
+  },
+
+  // With bspm enabled, install.packages() pulls fast binaries
+  "postCreateCommand": "R -q -e 'install.packages(c(\"tidyverse\",\"janitor\"))'",
+
+  // Or, if you prefer pure apt binaries, use this instead:
+  // "postCreateCommand": "sudo apt-get update && sudo apt-get install -y r-cran-tidyverse r-cran-janitor",
+
+  "postStartCommand": "rserver",
+
+  "forwardPorts": [8787],
+  "portsAttributes": {
+    "8787": { "label": "RStudio IDE" }
+  }
+}

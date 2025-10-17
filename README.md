@@ -15,3 +15,6 @@ The purpose of this repo is to allow you to easily clone the lecture slides and 
 
 ![](https://d33wubrfki0l68.cloudfront.net/795c039ba2520455d833b4034befc8cf360a70ba/558a5/diagrams/data-science-explore.png)
 
+---
+
+If you are using codespaces, [here is the lecture 7 `README.md`](lecture07new.md)
